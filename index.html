@@ -1,48 +1,83 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+        <title>reveal.js</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+        <link rel="stylesheet" href="dist/reset.css">
+        <link rel="stylesheet" href="dist/reveal.css">
+        <link rel="stylesheet" href="dist/theme/black.css">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2
-						<aside class="notes">
-						<p>Some notes</p>
-						</aside>
-						<p>Some slide text</p>
-						<aside class="notes">
-						<p>and some more notes</p>
-					</aside>
-				</section>
-			</div>
-		</div>
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="plugin/highlight/monokai.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown>
+                    <textarea data-template>
+                        ## Development practices in Spartacus
+                        ---
+                        ## What do we do?
+                        - "Standup"
+                        - "Sprint reviews"
+                        - "Sprint retrospectives"
+                        - "Plannings"
+                        - Scrum? Agile? XP? Others?
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+                        A paragraph with some text and a [link](http://hakim.se).
+                        ---
+                        ## Priorities
+                        - How do we prioritize work?
+                        - Ask yourself: What's the most important thing? What are our priorities?
+                        - Is this something I have to do now? Can it wait?
+                        - Short term goals
+                        - Broken builds
+                        - Queue. But sometimes we skip it.
+                        ---
+                        ## Team
+                        - We are not a homogeneus team
+                        - Teams
+                        - Self organizing teams
+                        ---
+                        ## JIRA tickets and priorities
+                        - Everything should have a ticket
+                        - Granularity (small tasks)
+                        - Acceptance criteria
+                        - Test scenarios
+                        - Boards should be curated daily
+                        ---
+                        ## Extras
+                        - Priorities. 60% from the PO, 40% from Engineering
+                        - Modernization and predictable releases. We are not able to release on time, blockers come up, etc.
+                        - Broadcast information better
+                        - Mixed messages in status call
+                        - e.g. strict compilation
+                        - Process
+                        - clear objectives for the team, make it cross functional
+                        - Get rid of the old ways
+                    </textarea>
+                </section>
+            </section>
+        </div>
+    </div>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+        // More info about initialization & config:
+// - https://revealjs.com/initialization/
+// - https://revealjs.com/config/
+Reveal.initialize({
+    hash: true,
+
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+});
+    </script>
+</body>
 </html>
