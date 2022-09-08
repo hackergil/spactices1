@@ -16,78 +16,91 @@
     <body>
         <div class="reveal">
             <div class="slides">
-                <section data-markdown data-auto-animate data-transition="zoom">
-                    <textarea data-template>
-                        ## Development practices in Spartacus
-                        ---
-                        ## Current practices
-                        - Standup
-                        - Plannings
-                        - Sprint reviews
-                        - Sprint retrospectives
-                        - Scrum, Agile, XP
-                        - Other practices?
-                        ---
-                        ## Team
-                        - Teams
-                        - Homogeneus team
-                        - Self organizing teams
-                        ![team
-                        canada](https://canadasoccer.com/wp-content/themes/betheme-child/assets/banners/cards/CS-NTLandingPage_CANMNT_1098x736.jpg)
-                        ---
-                        ## Priorities
-                        - How do we prioritize work?
-                        - Ask yourself:
-                            - What are our immediate goals?
-                            - What are our priorities?
-                            - Is this the most important thing I should be working on?
-                            - Is this something I have to do now? Can it wait?
-                        - Broken builds
-                        - Kanban === Queue. But sometimes we skip it.
-                        ---
-                       ## JIRA
-                        - Everything should have a ticket
-                        - Granularity (small tasks)
-                        - Acceptance criteria
-                        - Test scenarios
-                        - Boards should be curated daily
-                        ---
-                        ## Other goals
-                        - Priorities. 60% from the PO, 40% from Engineering
-                        - Predictable releases. We are not able to release on time, blockers come up, etc.
-                        - Better information broadcast
-                        - Mixed messages in status call
-                        - Clear objectives
-                        - Collective ownership
-                        - Get rid of the old ways(?)
-                        ---
-                        ## How can we work better?
-                        ---
-                        ## Thank you for your time
-                        ### See you on part II
-                    </textarea>
+                <section data-auto-animate data-transition="zoom">
+                    <h2 class="fragment">Development practices in Spartacus</h2>
                 </section>
-            </section>
-        </div>
+                <section data-auto-animate data-transition="zoom">
+                    <h2 class="fragment">Current practices</h2>
+                    <ul>
+                        <li class="fragment">Standup</li>
+                        <li class="fragment">Plannings</li>
+                        <li class="fragment">Sprint reviews</li>
+                        <li class="fragment">Sprint retrospectives</li>
+                        <li class="fragment">Scrum, agile, XP</li>
+                        <li class="fragment">Other practices?</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-transition="zoom">
+                    <h2 class="fragment">TEAM</h2>
+                    <ul>
+                        <li class="fragment">What is a team?</li>
+                        <li class="fragment">Homogeneus teams</li>
+                        <li class="fragment">Self organizing teams</li>
+                        <img
+                        src="https://canadasoccer.com/wp-content/themes/betheme-child/assets/banners/cards/CS-NTLandingPage_CANMNT_1098x736.jpg">
+                    </ul>
+                </section>
+                <section data-auto-animate data-transition="zoom">
+                    <h2 class="fragment">Priorities</h2>
+                    <ul>
+                        <li class="fragment">How do we prioritize work?</li>
+                        <li class="fragment">What are our immediate goals?</li>
+                        <li class="fragment">What are our priorities?</li>
+                        <li class="fragment">Do you know what's the most important thing you should be working on at all
+                            times?</li>
+                        <li class="fragment">Is this something I have to do now? Is it urgent? Is it important? Can it
+                            wait?</li>
+                        <li class="fragment">Broken builds</li>
+                        <li class="fragment">Kanban === Queue. But sometimes we skip it</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-transition="zoom">
+                    <h2 class="fragment">JIRA</h2>
+                    <ul>
+                        <li class="fragment">All the meaningful work should have a ticket</li>
+                        <li class="fragment">Granularity (small tasks)</li>
+                        <li class="fragment">Acceptance criteria</li>
+                        <li class="fragment">Test scenarios</li>
+                        <li class="fragment">Boards should be curated daily</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-transition="zoom">
+                    <h2 class="fragment">Other goals</h2>
+                    <ul>
+                        <li class="fragment">Priorities. 60% from the PO, 40% from Engineering</li>
+                        <li class="fragment">Colletive ownership</li>
+                        <li class="fragment">Predictable releases. We are not able to release on time, blockers come up, etc.</li>
+                        <li class="fragment">Better information broadcast</li>
+                        <li class="fragment">Avoid mixed messages. Everyone on the same page</li>
+                        <li class="fragment">"We have always done it like this"</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-transition="zoom">
+                    <h2 class="fragment">How can help you to work better?</h2>
+                </section>
+                <section data-auto-animate data-transition="zoom">
+                    <h2 class="fragment">Thank you for your time and attendance</h2>
+                    <h2 class="fragment">See you on part II</h2>
+                </section>
+           </section>
+        </section>
     </div>
+</div>
 
-    <script src="dist/reveal.js"></script>
-    <script src="plugin/notes/notes.js"></script>
-    <script src="plugin/markdown/markdown.js"></script>
-    <script src="plugin/highlight/highlight.js"></script>
-    <script>
-        // More info about initialization & config:
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script>
+    // More info about initialization & config:
 // - https://revealjs.com/initialization/
 // - https://revealjs.com/config/
 Reveal.initialize({
     hash: true,
-    markdown: {
-        smartypants: true
-    },
 
     // Learn about plugins: https://revealjs.com/plugins/
-    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+    plugins: [ RevealHighlight, RevealNotes ]
 });
-    </script>
+</script>
 </body>
 </html>
