@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <title>reveal.js</title>
+        <title>Practices in Spartacus</title>
 
         <link rel="stylesheet" href="dist/reset.css">
         <link rel="stylesheet" href="dist/reveal.css">
@@ -17,23 +17,46 @@
         <div class="reveal">
             <div class="slides">
                 <section data-auto-animate data-transition="zoom">
-                    <h2 class="fragment">Development practices in Spartacus</h2>
+                    <h2>Practices in Spartacus</h2>
                 </section>
                 <section data-auto-animate data-transition="zoom">
-                    <h2 class="fragment">Current practices</h2>
+                    <h2>Why these sessions?</h2>
                     <ul>
+                        <li class="fragment">Reflect on how we work</li>
+                        <li class="fragment">Think about what can be improved</li>
+                        <li class="fragment">Ditch what we don't need</li>
+                        <li class="fragment">"Be agile :) "</li>
+                    </ul>
+                </section>
+                <section data-auto-animate data-transition="zoom">
+                    <p class="fragment">There are no best practices. Only good practices in your current context.</p>
+                    <p class="fragment">Most of the material on this presentation are my opinions.</p>
+                    <p class="fragment">But most of it is based on facts.</p>
+                </section>
+                <section data-auto-animate data-transition="zoom">
+                    <h2>Scrum</h2>
+                    <img src="https://wac-cdn.atlassian.com/dam/jcr:709d95de-f4d4-4faf-aa9f-4bead10e888b/sprint_cycle-c.png?cdnVersion=513">
+                    <p class="fragment">Works in some team setups. Does not work here.</p>
+                </section>
+                <section data-auto-animate data-transition="zoom">
+                    <h2>What is it that we do?</h2>
+                    <ul>
+                        <li class="fragment">Scrum</li>
                         <li class="fragment">Standup</li>
                         <li class="fragment">Plannings</li>
                         <li class="fragment">Sprint reviews</li>
                         <li class="fragment">Sprint retrospectives</li>
-                        <li class="fragment">Scrum, agile, XP</li>
+                        <li class="fragment">A few others from <a href="https://agilemanifesto.org/">Agile</a> and <a
+                                href="http://www.extremeprogramming.org/">XP</a></li>
                         <li class="fragment">Other practices?</li>
                     </ul>
                 </section>
                 <section data-auto-animate data-transition="zoom">
-                    <h2 class="fragment">TEAM</h2>
+                    <h2>TEAM</h2>
                     <ul>
-                        <li class="fragment">What is a team?</li>
+                        <li class="fragment"><a
+                                href="https://www.leadershipfirst.net/post/the-true-meaning-of-teamwork">What is a
+                                team?</a></li>
                         <li class="fragment">Homogeneus teams</li>
                         <li class="fragment">Self organizing teams</li>
                         <img
@@ -41,58 +64,62 @@
                     </ul>
                 </section>
                 <section data-auto-animate data-transition="zoom">
-                    <h2 class="fragment">Priorities</h2>
+                    <h2>Priorities</h2>
+                    <p class="fragment">How often do you ask yourself:</p>
                     <ul>
                         <li class="fragment">How do we prioritize work?</li>
-                        <li class="fragment">What are our immediate goals?</li>
                         <li class="fragment">What are our priorities?</li>
-                        <li class="fragment">Do you know what's the most important thing you should be working on at all
-                            times?</li>
-                        <li class="fragment">Is this something I have to do now? Is it urgent? Is it important? Can it
-                            wait?</li>
-                        <li class="fragment">Broken builds</li>
-                        <li class="fragment">Kanban === Queue. But sometimes we skip it</li>
+                        <li class="fragment">What are our immediate goals?</li>
+                        <li class="fragment">What's the most important thing we should be working on?</li>
+                        <li class="fragment">Is this something that has to be done now?</li>
+                        <li class="fragment">Is it urgent?</li>
+                        <li class="fragment">Is it important?</li>
+                        <li class="fragment">Can it wait?</li>
                     </ul>
                 </section>
                 <section data-auto-animate data-transition="zoom">
-                    <h2 class="fragment">JIRA</h2>
+                    <h2>WORK</h2>
                     <ul>
+                        <li class="fragment">JIRA is our world of work</li>
                         <li class="fragment">All the meaningful work should have a ticket</li>
-                        <li class="fragment">Granularity (small tasks)</li>
-                        <li class="fragment">Acceptance criteria</li>
-                        <li class="fragment">Test scenarios</li>
                         <li class="fragment">Boards should be curated daily</li>
+                        <li class="fragment">Tasks should be small and granular</li>
+                        <li class="fragment">Tasks should have valid acceptance criteria</li>
+                        <li class="fragment">Tasks should have test scenarios</li>
                     </ul>
                 </section>
                 <section data-auto-animate data-transition="zoom">
-                    <h2 class="fragment">Other goals</h2>
+                    <h2>Miscellaneous thoughts from Gil</h2>
                     <ul>
-                        <li class="fragment">Priorities. 60% from the PO, 40% from Engineering</li>
-                        <li class="fragment">Colletive ownership</li>
-                        <li class="fragment">Predictable releases. We are not able to release on time, blockers come up, etc.</li>
-                        <li class="fragment">Better information broadcast</li>
-                        <li class="fragment">Avoid mixed messages. Everyone on the same page</li>
-                        <li class="fragment">"We have always done it like this"</li>
-                    </ul>
+                        <li class="fragment">Collective ownership</li>
+                        <li class="fragment">Priorities: <span style="text-decoration: underline">60% from the PO, 40%
+                                from Engineering<span></li>
+                                <li class="fragment">(Somewhat) Predictable releases</li>
+                                <li class="fragment">Better information broadcast (?)</li>
+                                <li class="fragment">Better awareness</li>
+                                <li class="fragment">Avoid mixed messages. Have everyone on the same page</li>
+                                <li class="fragment">"We have always done it like this"</li>
+                                <li class="fragment">"(That doesn't mean you are doing it right)"</li>
+                            </ul>
+                        </section>
+                        <section data-auto-animate data-transition="zoom">
+                            <h2 class="fragment">What can we do to work better?</h2>
+                        </section>
+                        <section data-auto-animate data-transition="zoom">
+                            <h2 class="fragment">Thank you for your time and attendance</h2>
+                            <h2 class="fragment">See you on part II</h2>
+                        </section>
+                    </section>
                 </section>
-                <section data-auto-animate data-transition="zoom">
-                    <h2 class="fragment">How can help you to work better?</h2>
-                </section>
-                <section data-auto-animate data-transition="zoom">
-                    <h2 class="fragment">Thank you for your time and attendance</h2>
-                    <h2 class="fragment">See you on part II</h2>
-                </section>
-           </section>
-        </section>
-    </div>
-</div>
+            </div>
+        </div>
 
-<script src="dist/reveal.js"></script>
-<script src="plugin/notes/notes.js"></script>
-<script src="plugin/markdown/markdown.js"></script>
-<script src="plugin/highlight/highlight.js"></script>
-<script>
-    // More info about initialization & config:
+        <script src="dist/reveal.js"></script>
+        <script src="plugin/notes/notes.js"></script>
+        <script src="plugin/markdown/markdown.js"></script>
+        <script src="plugin/highlight/highlight.js"></script>
+        <script>
+            // More info about initialization & config:
 // - https://revealjs.com/initialization/
 // - https://revealjs.com/config/
 Reveal.initialize({
